@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:hsl(330, 100%, 98%) ;
+    max-width: 100%;
+    }
+.container{
+    border: 2px solid  hsl(0, 0%, 100%);
+    border-radius: 15px;
+    background-color: hsl(0, 0%, 100%);
+    /* deyişiklik edilecek */
+    padding: 10px;
+    width: 400px;
+    /* height: 1220px; */
+    margin: 60px auto;
+}
+.blog_img{
+    width: 500px;
+    max-width: 100%;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.blog_text h1  {
+    padding: 8px 0px;
+    color: hsl(24, 5%, 18%);
+    /* font-family: "Young Serif", serif; */
+     font-family: "Outfit", serif;
+  font-weight: bold;
+  font-style: normal;
+  
+}
+.blog_text p{
+  padding: 10px 0px;
+  color: hsl(30, 10%, 34%);
+ font-weight: 400;
+font-size: 11px;
+ font-family: "Young Serif", serif;
+
+}
+.blog_time{
+    border: 1px solid hsl(330, 100%, 98%) ;
+    border-radius: 5px;
+    background-color: hsl(330, 100%, 98%);
+    padding:15px;
+    width: 100%;
+    line-height: 1.5rem;
+    list-style-position: inside;
+}
+
+.blog_time h2{
+    padding-bottom: 5px;
+    color: hsl(332, 51%, 32%);
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+
+}
+.blog_time li{
+    color: hsl(30, 10%, 34%);
+    font-size: 13px;
+ font-family: "Young Serif", serif;
+
+
+}
+.blog_ingredients{
+    width: 100%;
+    list-style-position:inside ;
+    line-height:1.5rem;
+    color: hsl(30, 10%, 34%) ;
+}
+.blog_ingredients h2 {
+    color: hsl(14, 45%, 36%);
+    margin: 10px auto;
+    font-family: "Young Serif", serif;
+    font-size: 18px;
+}
+
+.blog_ingredients p{
+ font-family: "Outfit", sans-serif;
+
+}
+.blog_ingredients li{
+     font-family: "Outfit", sans-serif;
+font-size: 12px;
+}
+
+.blog_instructions{
+    width: 100%;
+    list-style-position:inside ;
+    line-height:1rem;
+    margin: 10px 0px;
+    color:hsl(30, 10%, 34%);
+    font-family: "Young Serif", serif;
+    font-size: 11px;
+
+}
+.blog_instructions hr{
+    margin: 15px auto;
+color: (30, 54%, 90%);
+}
+.blog_instructions h2{
+    color: hsl(14, 45%, 36%);
+}
+.blog_instructions ul{
+    list-style: decimal;
+    list-style-position: inside;
+    /* margin: 10px auto; */
+    
+}
+.blog_instructions li{
+    margin: 6px auto;
+}
+.blog_instructions li::marker{
+    font-weight: bold;
+}
+.blog_nutrition{
+    width: 100%;
+    color: hsl(30, 10%, 34%)
+;
+}
+.blog_nutrition h2{
+    margin: 15px 0px;
+    color: hsl(14, 45%, 36%);
+   font-family: "Outfit", sans-serif;
+   font-size: 20px;
+    font-family: "Young Serif", serif;
+
+
+
+}
+.blog_cards{
+    display: flex;
+    gap: 150px;
+    line-height: 30px;
+    margin: 10px;
+}
+.blog_cardone span{
+    display: block;
+        font-family: "Young Serif", serif;
+font-size: 13px;
+
+}
+.blog_nutrition p{
+ font-family: "Outfit", sans-serif;
+ font-size: 10px;
+
+}
+.blog_cardtwo span{
+    display: block;
+    color: hsl(14, 45%, 36%) ;
+font-weight: bold;
+font-size: 13px;
+    font-family: "Young Serif", serif;
+
+}
+hr{
+    color: hsl(30, 18%, 87%) ;
+}
