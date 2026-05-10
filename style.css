@@ -31,7 +31,7 @@ body {
     padding: 8px 0px;
     color: hsl(24, 5%, 18%);
     font-family: "Young Serif", serif;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 18px;
 
 }
@@ -79,9 +79,8 @@ body {
 
 .blog_ingredients h2 {
     color: hsl(14, 45%, 36%);
-    /* margin: 10px auto; */
     font-family: "Young Serif", serif;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 15px;
 }
 .blog_ingredients ul {
@@ -115,7 +114,7 @@ body {
 .blog_instructions h2 {
     color: hsl(14, 45%, 36%);
     font-family: "Young Serif", serif;
-font-weight: normal;
+font-weight: bold;
 font-size: 15px;    
 }
 
@@ -147,7 +146,7 @@ font-size: 15px;
     color: hsl(14, 45%, 36%);
     font-size: 15px;
     font-family: "Young Serif", serif;
-    font-weight: normal;
+    font-weight: bold;
 }
 
 .blog_cards {
