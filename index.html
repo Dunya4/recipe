@@ -3,19 +3,16 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- displays site properly based on user's device -->
 
-    <link rel="icon" type="image/png" sizes="32x32"
-      href="./assets/images/favicon-32x32.png">
-    <link rel="stylesheet" href="style.css">
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap" rel="stylesheet">    
+<title>Frontend Mentor | Recipe page</title>
 
-    <title>Frontend Mentor | Recipe page</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-    .attribution { font-size: 0.6875rem; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
   </style>
   </head>
   <body> 
@@ -40,7 +37,7 @@
       <div class="blog_ingredients">
         <h2> Ingredients</h2>
         <ul class="blog_list_two">
-          <li> 2-3 large eggs</li>
+          <li>2-3 large eggs</li>
           <li>Salt, to taste</li>
           <li> Pepper, to taste</li>
           <li>1 tablespoon of butter or oil</li>
@@ -52,7 +49,8 @@
       </div>
     
       <div class="blog_instructions">
-        <hr>
+      <span class="blog_span"></span>
+
         <h2>Instructions</h2>
         <ul class="blog_list_three">
           <li><b>Beat the eggs:</b> In a bowl, beat the eggs with a pinch of salt and
@@ -61,7 +59,7 @@
             add butter or oil.</li>
           <li><b>Cook the omelette:</b> Once the butter is melted and bubbling, pour in
             the eggs. Tilt the pan to ensure the eggs evenly coat the surface.</li>
-          <b>Add fillings (optional):</b> When the eggs begin to set at the edges
+          <li><b>Add fillings (optional):</b> When the eggs begin to set at the edges
             but are still slightly runny in the
             middle, sprinkle your chosen fillings over one half of the
             omelette.</li>
@@ -74,37 +72,34 @@
         </ul>
       </div>
       <div class="blog_nutrition">
-        <hr>
+        <span class="blog_span"></span>
         <h2> Nutrition</h2>
         <p>The table below shows nutritional values per serving without the additional fillings.</p>
+
         <div class="blog_cards"> 
           <div class="blog_cardone">
-          <span>Calories</span> <hr>
-          <span>Carbs</span><hr>
-          <span>Protein</span> <hr>
-          <span>Fat</span> </div>
+          <span>Calories</span> 
+          <span class="blog_number">277kcal</span>
+          
+           </div>
+           <span class="blog_span"></span>
           <div class="blog_cardtwo">
-            <span>277kcal</span>
-            <span>0g</span>
-            <span>20g</span> 
-            <span>22g</span>
+          <span>Carbs</span>
+            <span class="blog_number">0g</span>
           </div>
+          <span class="blog_span"></span>
+        <div class="blog_cardthree">
+          <span>Protein</span>
+            <span class="blog_number">20g</span> 
+        </div>
+        <span class="blog_span"></span>
+        <div class="blog_cardfour">
+          <span>Fat</span> 
+            <span class="blog_number">22g</span>
+        </div>
+        <span class="blog_span"></span>
         </div>
 
-      <!-- <table>
-        <tr>
-          <th>Calories</th>
-          <th>Carbs</th>
-          <th>Protein</th>
-          <th>Fat</th>
-        </tr>
-        <tr>
-          <td>277kcal</td>
-          <td>0g</td>
-          <td>20g</td>
-          <td>22g</td>
-        </tr>
-      </table> -->
       </div>
     </div>
   </body>
